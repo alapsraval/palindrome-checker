@@ -14,6 +14,7 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Container Box */
 .container {
     background: white;
     padding: 20px;
@@ -23,24 +24,33 @@ body {
     width: 320px;
 }
 
+/* Stack Layout */
+.stack {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;  /* Adds spacing between elements */
+    align-items: center;
+}
+
+/* Typography */
 h2 {
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
 
+/* Input Field */
 input {
     width: 100%;
     padding: 10px;
-    margin-top: 10px;
     border: 2px solid #ddd;
     border-radius: 6px;
     font-size: 1rem;
 }
 
+/* Button */
 button {
     width: 100%;
     padding: 10px;
-    margin-top: 10px;
     border: none;
     background: #007bff;
     color: white;
@@ -54,8 +64,9 @@ button:hover {
     background: #0056b3;
 }
 
+/* Result Text */
 p {
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: 1.2rem;
     font-weight: bold;
 }
